@@ -1,0 +1,30 @@
+.gradient {
+  background-image: linear-gradient(white 80%, $primary 100%);
+  background-color: $secondary;
+}
+
+.q-footer {
+  background: transparent;
+}
+
+.q-footer {
+  width: fit-content;
+  left: auto;
+}
+
+.q-page-container {
+  padding-bottom: 0 !important; // overlap footer
+}
+
+.q-tooltip {
+  max-width: 256px;
+  text-align: center;
+  font-size: 1em;
+  background-color: $dark;
+  z-index: 4000;
+
+  > div,
+  > p {
+    font-size: 1.05em;
+  }
+}
