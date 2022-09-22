@@ -79,7 +79,12 @@ module.exports = configure(function (/* ctx */) {
           // you need to set i18n resource including paths !
           include: path.resolve(__dirname, './src/i18n/**')
         }]
-      ]
+      ],
+
+      alias: {
+        utils: path.join(__dirname, './src/utils'),
+        models: path.join(__dirname, './src/models'),
+      }
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#devServer
