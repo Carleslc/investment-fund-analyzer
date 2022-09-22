@@ -1,4 +1,8 @@
-.gradient {
+body {
+  background: $primary;
+}
+
+.bg-gradient {
   background-image: linear-gradient(white 80%, $primary 100%);
   background-color: $secondary;
 }

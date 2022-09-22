@@ -10,5 +10,9 @@ export default {
   `,
   '404': 'Oops. Nothing here...',
   back: 'Go back',
-  noFounds: 'You do not have any fund bookmarked yet.\nSearch funds in the search bar above and bookmark your favourites.',
+  noFunds: 'You do not have any fund bookmarked yet.\nSearch funds in the search bar above and bookmark your favourites.',
+  myFunds: 'My favourites',
+  fund: {
+    name: 'Name',
+  },
 };

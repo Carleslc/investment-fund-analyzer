@@ -1,5 +1,5 @@
 <template>
-  <q-input class="toolbar-input" dark dense standout v-model="search" :placeholder="t('search')">
+  <q-input class="search-toolbar" dark dense standout v-model="search" :placeholder="t('search')">
     <template v-slot:prepend>
       <q-icon name="search" />
     </template>
@@ -15,8 +15,14 @@ const { t } = useI18n();
 const search = ref('');
 </script>
 
-<style scoped>
-.toolbar-input {
+<style lang="scss" scoped>
+.search-toolbar {
   width: 35%;
+  min-width: 300px;
+}
+@media screen and (max-width: $breakpoint-sm-max) {
+  .search-toolbar {
+    width: 50%;
+  }
 }
 </style>

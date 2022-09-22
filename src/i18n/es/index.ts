@@ -10,5 +10,9 @@ export default {
   `,
   '404': 'Oops. No hay nada aquí...',
   back: 'Volver',
-  noFounds: 'No has guardado ningún fondo de inversión aún.\nBusca fondos en la barra de búsqueda superior y guarda tus favoritos.',
+  noFunds: 'No has guardado ningún fondo de inversión aún.\nBusca fondos en la barra de búsqueda superior y guarda tus favoritos.',
+  myFunds: 'Mis fondos',
+  fund: {
+    name: 'Nombre',
+  },
 };
